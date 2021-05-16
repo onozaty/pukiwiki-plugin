@@ -1,7 +1,9 @@
 <?php
 // Nice Plugin
 //
-// This plugin is based on vote.inc.php.
+// 「いいね！」ボタンを表示し、カウントするプラグインです。
+// vote.inc.php を参考にしています。
+//
 // License: GPL v2 or (at your option) any later version
 
 define('PLUGIN_NICE_LABEL', "&#x1f44d いいね！");                    # ラベル(ボタンにラベル＋数が表示)
