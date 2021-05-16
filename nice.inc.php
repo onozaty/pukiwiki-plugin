@@ -101,6 +101,13 @@ function plugin_nice_convert()
 
 EOD;
 
+    if (isset($vars['preview'])) {
+        # プレビューの場合にはボタン自体見えないので、テキストで配置
+        $body .= <<<EOD
+<p>$nice_label $cnt</p>
+
+EOD;
+    }
     return $body;
 }
 ?>
