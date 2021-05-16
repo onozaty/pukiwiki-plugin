@@ -4,7 +4,7 @@
 // This plugin is based on vote.inc.php.
 // License: GPL v2 or (at your option) any later version
 
-define('PLUGIN_NICE_LABEL', "いいね！");
+define('PLUGIN_NICE_LABEL', "&#x1f44d いいね！");
 
 function plugin_nice_action()
 {
@@ -96,7 +96,7 @@ function plugin_nice_convert()
  <input type="hidden" name="refer"   value="$s_page" />
  <input type="hidden" name="nice_no" value="$nice_no" />
  <input type="hidden" name="digest"  value="$s_digest" />
- <input type="$_submit" name="nice" value="&#x1f44d $nice_label $cnt" class="submit" />
+ <input type="$_submit" name="nice" value="$nice_label $cnt" class="submit" />
 </form>
 
 EOD;
